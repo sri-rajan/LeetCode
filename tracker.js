@@ -7,6 +7,9 @@ const dateWise = {
     "141", // Linked List Cycle - Two Pointer - slow and fast
     "160", // Intersection of Two Linked List - Two pointer and lenght difference
   ],
+  "01-04-2026": [
+    "496", // Next Greater Number - Array / Monotonic Stack
+  ],
 };
 
 const practiceAgain = {
@@ -16,4 +19,5 @@ const practiceAgain = {
   "16-02-2026": [
     "160", // Intersection of Two Linked List - Two pointer and lenght difference
   ],
+  "08-04-2026": ["496"],
 };
