@@ -9,15 +9,18 @@ const dateWise = {
   ],
   "01-04-2026": [
     "496", // Next Greater Number - Array / Monotonic Stack
+    "121", // best time to buy and sell stock - Array / Kadane's Algorithm
   ],
 };
 
 const practiceAgain = {
   "15-02-2026": [
     "88", // Merge Sorted Array -  Two Pointer
+    "125",
+    "141",
   ],
   "16-02-2026": [
     "160", // Intersection of Two Linked List - Two pointer and lenght difference
   ],
-  "08-04-2026": ["496"],
+  "08-04-2026": ["496", "121"],
 };

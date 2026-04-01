@@ -44,11 +44,10 @@ def nextGreaterElement(nums1, nums2):
         while stack and stack[-1] < num:
             dictRef[stack.pop()] = num
         stack.append(num)
-    print("this is stack", stack, dictRef)
+    return [dictRef[num] if num in dictRef else -1 for num in nums1]
 
 
 nums1 = [4, 1, 2]
-nums2 = [4, 3, 2, 1, 6]
-# st == 1 --> 1:3
+nums2 = [4, 2, 1, 3]
 ans = nextGreaterElement(nums1, nums2)
 print("this isanswer", ans)
