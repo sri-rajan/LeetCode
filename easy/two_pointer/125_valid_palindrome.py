@@ -20,34 +20,35 @@
 # Output: true
 # Explanation: s is an empty string "" after removing non-alphanumeric characters.
 # Since an empty string reads the same forward and backward, it is a palindrome.
- 
+
 
 # Constraints:
 
 # 1 <= s.length <= 2 * 105
 # s consists only of printable ASCII characters.
 
+
 def isPalindrom(s):
     """
     :type s: str
     :rtype: bool
-    """ 
-    left =0
-    right =len(s)-1
-    while left<right:
+    """
+    left = 0
+    right = len(s) - 1
+    while left < right:
         if not s[left].isalnum():
-           left +=1
-           continue
+            left += 1
+            continue
         if not s[right].isalnum():
-           right -=1
-           continue
+            right -= 1
+            continue
         if s[left].lower() != s[right].lower():
             return False
-        left +=1
-        right -=1
+        left += 1
+        right -= 1
     return True
 
 
 answer = isPalindrom("A man, a plan, a canal: Panama")
 answer2 = isPalindrom("one")
-print("this is answer",answer,answer2)
+print("this is answer", answer, answer2)
