@@ -13,6 +13,8 @@ const dateWise = {
   ],
   "02-04-2026": [
     "217", // contains dublicate - hashmap
+    "268", // missing_number - math
+    "15", // 3sum - sort and 2 pointer
   ],
 };
 
@@ -26,4 +28,5 @@ const practiceAgain = {
     "160", // Intersection of Two Linked List - Two pointer and lenght difference
   ],
   "08-04-2026": ["496", "121"],
+  "09-04-2026": ["15"],
 };
