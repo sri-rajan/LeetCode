@@ -11,6 +11,9 @@ const dateWise = {
     "496", // Next Greater Number - Array / Monotonic Stack
     "121", // best time to buy and sell stock - Array / Kadane's Algorithm
   ],
+  "02-04-2026": [
+    "217", // contains dublicate - hashmap
+  ],
 };
 
 const practiceAgain = {
