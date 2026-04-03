@@ -17,6 +17,9 @@ const dateWise = {
     "15", // 3sum - sort and 2 pointer
     "16", // 3sum closet - sort and 2 pointer
   ],
+  "03-04-2026": [
+    "18", //4sum - sort and 2 pointer
+  ],
 };
 
 const practiceAgain = {
@@ -30,4 +33,5 @@ const practiceAgain = {
   ],
   "08-04-2026": ["496", "121"],
   "09-04-2026": ["15", "16"],
+  "09-04-2026": ["18"],
 };
