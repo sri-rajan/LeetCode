@@ -19,19 +19,22 @@ const dateWise = {
   ],
   "03-04-2026": [
     "18", //4sum - sort and 2 pointer
+    "31", // next permutation
   ],
+  "04-04-2026": ["33"],
 };
 
 const practiceAgain = {
-  "15-02-2026": [
+  "06-04-2026": [
     "88", // Merge Sorted Array -  Two Pointer
     "125",
     "141",
   ],
-  "16-02-2026": [
+  "07-04-2026": [
     "160", // Intersection of Two Linked List - Two pointer and lenght difference
   ],
   "08-04-2026": ["496", "121"],
   "09-04-2026": ["15", "16"],
-  "09-04-2026": ["18"],
+  "09-04-2026": ["18", "31"],
+  "10-04-2026": ["33"],
 };
