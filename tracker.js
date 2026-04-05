@@ -21,7 +21,12 @@ const dateWise = {
     "18", //4sum - sort and 2 pointer
     "31", // next permutation
   ],
-  "04-04-2026": ["33"],
+  "04-04-2026": [
+    "33", // search in rotated sroted array
+  ],
+  "05-04-2026": [
+    "34", // find first and last position
+  ],
 };
 
 const practiceAgain = {
@@ -37,4 +42,5 @@ const practiceAgain = {
   "09-04-2026": ["15", "16"],
   "09-04-2026": ["18", "31"],
   "10-04-2026": ["33"],
+  "11-04-2026": ["34"],
 };
