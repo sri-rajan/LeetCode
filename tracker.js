@@ -27,6 +27,9 @@ const dateWise = {
   "05-04-2026": [
     "34", // find first and last position
   ],
+  "06-04-2026": [
+    "56", // merge intervals
+  ],
 };
 
 const practiceAgain = {
@@ -42,5 +45,6 @@ const practiceAgain = {
   "09-04-2026": ["15", "16"],
   "09-04-2026": ["18", "31"],
   "10-04-2026": ["33"],
-  "11-04-2026": ["34"],
+  "11-04-2026": ["34"], // == simplify the solution in next try by using the binary function
+  "12-04-2026": ["56"],
 };
