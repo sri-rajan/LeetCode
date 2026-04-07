@@ -31,6 +31,9 @@ const dateWise = {
     "56", // merge intervals
     "75", // sort colors -- 2 pointer
   ],
+  "07-04-2026": [
+    "128", // Longest consecutive Sequence
+  ],
 };
 
 const practiceAgain = {
@@ -48,4 +51,5 @@ const practiceAgain = {
   "10-04-2026": ["33"],
   "11-04-2026": ["34"], // == simplify the solution in next try by using the binary function
   "12-04-2026": ["56", "75"],
+  "13-04-2026": ["128"],
 };
