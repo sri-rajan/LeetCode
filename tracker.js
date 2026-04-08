@@ -37,6 +37,7 @@ const dateWise = {
   "08-04-2026": [
     "153", // Find minimum in rotated Array -- binary search
     "189", // rotate array
+    "238", // product of array except self
   ],
 };
 
@@ -56,5 +57,5 @@ const practiceAgain = {
   "11-04-2026": ["34"], // == simplify the solution in next try by using the binary function
   "12-04-2026": ["56", "75"],
   "13-04-2026": ["128"],
-  "14-04-2026": ["153", "189"],
+  "14-04-2026": ["153", "189", "238"],
 };
