@@ -39,6 +39,9 @@ const dateWise = {
     "189", // rotate array
     "238", // product of array except self
   ],
+  "16-04-2026": [
+    "442", // find all dublicate in array
+  ],
 };
 
 const practiceAgain = {
@@ -58,4 +61,5 @@ const practiceAgain = {
   "12-04-2026": ["56", "75"],
   "13-04-2026": ["128"],
   "14-04-2026": ["153", "189", "238"],
+  "22-04-2026": ["442"],
 };
