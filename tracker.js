@@ -42,6 +42,9 @@ const dateWise = {
   "16-04-2026": [
     "442", // find all dublicate in array
   ],
+  "17-04-2026": [
+    "4", // median of two sorted array
+  ],
 };
 
 const practiceAgain = {
@@ -62,4 +65,5 @@ const practiceAgain = {
   "13-04-2026": ["128"],
   "14-04-2026": ["153", "189", "238"],
   "22-04-2026": ["442"],
+  "23-04-2026": ["4"],
 };
