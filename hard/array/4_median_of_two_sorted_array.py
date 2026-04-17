@@ -66,7 +66,36 @@ def findMedianSortedArrays(nums1, nums2):
     return min(lastTwo) if totalSize % 2 != 0 else sum(lastTwo) / 2
 
 
+def findMedianSortedArraysOptimized(nums1, nums2):
+    A, B = nums1, nums2
+    aLen = len(nums1)
+    bLen = len(nums2)
+    if aLen > bLen:
+        A, B = B, A
+        aLen, bLen = bLen, aLen
+    total = aLen + bLen
+    half = total // 2
+    l, r = 0, aLen - 1
+    while True:
+        Amid = (l + r) // 2
+        Bmid = half - Amid - 2  # minus 2 because of index
+
+        Aleft = A[Amid] if Amid >= 0 else float("-infinity")
+        Aright = A[Amid + 1] if Amid + 1 < aLen else float("infinity")
+        Bleft = B[Bmid] if Bmid >= 0 else float("-infinity")
+        Bright = B[Bmid + 1] if Bmid + 1 < bLen else float("infinity")
+
+        if Aleft <= Bright and Bleft <= Aright:
+            if total % 2 == 0:
+                return (max(Aleft, Bleft) + min(Aright, Bright)) / 2
+            return min(Aright, Bright)
+        elif Aleft < Bright:
+            l += 1
+        else:
+            r -= 1
+
+
 nums1 = []
 nums2 = [2, 3]
-answer = findMedianSortedArrays(nums1, nums2)
+answer = findMedianSortedArraysOptimized(nums1, nums2)
 print("this is the answer", answer)
