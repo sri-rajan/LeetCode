@@ -44,6 +44,7 @@ const dateWise = {
   ],
   "17-04-2026": [
     "4", // median of two sorted array
+    "41", // first missing positive
   ],
 };
 
@@ -66,4 +67,5 @@ const practiceAgain = {
   "14-04-2026": ["153", "189", "238"],
   "22-04-2026": ["442"],
   "23-04-2026": ["4"],
+  "24-04-2026": ["41"],
 };
