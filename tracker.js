@@ -44,7 +44,12 @@ const dateWise = {
   ],
   "17-04-2026": [
     "4", // median of two sorted array
+  ],
+  "18-04-2026": [
     "41", // first missing positive
+  ],
+  "19-04-2026": [
+    "42", // trapping_rain_water
   ],
 };
 
@@ -68,4 +73,15 @@ const practiceAgain = {
   "22-04-2026": ["442"],
   "23-04-2026": ["4"],
   "24-04-2026": ["41"],
+  "25-04-2026": ["42"],
+};
+
+const todo = {
+  array: {
+    hard: [
+      "84 – Largest Rectangle in Histogram",
+      "85 – Maximal Rectangle",
+      "239 – Sliding Window Maximum ⭐",
+    ],
+  },
 };
