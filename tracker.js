@@ -78,10 +78,9 @@ const practiceAgain = {
 
 const todo = {
   array: {
-    hard: [
-      "84 – Largest Rectangle in Histogram",
-      "85 – Maximal Rectangle",
-      "239 – Sliding Window Maximum ⭐",
-    ],
+    hard: ["85 – Maximal Rectangle", "239 – Sliding Window Maximum ⭐"],
+  },
+  stack_queue: {
+    hard: ["84_largest_rectangle_in_histogram"],
   },
 };
