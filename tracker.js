@@ -51,6 +51,9 @@ const dateWise = {
   "19-04-2026": [
     "42", // trapping_rain_water
   ],
+  "20-04-2026": [
+    "239", // sliding windo maximum
+  ],
 };
 
 const practiceAgain = {
@@ -74,11 +77,12 @@ const practiceAgain = {
   "23-04-2026": ["4"],
   "24-04-2026": ["41"],
   "25-04-2026": ["42"],
+  "26-04-2026": ["239"],
 };
 
 const todo = {
   array: {
-    hard: ["85 – Maximal Rectangle", "239 – Sliding Window Maximum ⭐"],
+    hard: ["85 – Maximal Rectangle"],
   },
   stack_queue: {
     hard: ["84_largest_rectangle_in_histogram"],

@@ -51,7 +51,31 @@ def maxSlidingWindow(nums, k):
     return maxList
 
 
-values = [1, 3, -1, -3, 5, 3, 6, 7]  # [3,3,5,5,6,7]
+# optimized way
+from collections import deque
+
+
+def maxSlidingWindow2(nums, k):
+    dq = deque()
+    res = []
+    n = len(nums)
+    for i in range(n):
+        print("this is dq", dq, i)
+        if dq and dq[0] <= i - k:
+            dq.popleft()
+        print("this is dq2", dq)
+        while dq and nums[dq[-1]] <= nums[i]:
+            dq.pop()
+        print("this is dq3", dq)
+        dq.append(i)
+        print("this is dq4", dq)
+        if i >= k - 1:
+            res.append(nums[dq[0]])
+
+    return res
+
+
+values = [1, 3, 1, 2, 0, 5]  # [3,3,2,5]
 k = 3
-answer = maxSlidingWindow(values, k)
+answer = maxSlidingWindow2(values, k)
 print("this is answer", answer)
