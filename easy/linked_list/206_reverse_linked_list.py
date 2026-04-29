@@ -40,6 +40,16 @@ def reverseList(head):
     return
 
 
+def reverseList2(head):
+    node = None
+    while head:
+        temp = head.next
+        head.next = node
+        node = head
+        head = temp
+    return node
+
+
 class Node:
     def __init__(self, val):
         self.val = val
@@ -75,6 +85,6 @@ lnkList.append(4)
 print("initial")
 lnkList.display()
 
-answer = reverseList(lnkList.head)
+answer = reverseList2(lnkList.head)
 print("\nfinal")
 lnkList.display()
