@@ -54,30 +54,12 @@ const dateWise = {
   "20-04-2026": [
     "239", // sliding windo maximum
   ],
-};
-
-const practiceAgain = {
-  "06-04-2026": [
-    "88", // Merge Sorted Array -  Two Pointer
-    "125",
-    "141",
+  "01-05-2026": [
+    "206", //reverse_linked_list
   ],
-  "07-04-2026": [
-    "160", // Intersection of Two Linked List - Two pointer and lenght difference
+  "03-05-2026": [
+    "21", //merge_two_sorted_lists
   ],
-  "08-04-2026": ["496", "121"],
-  "09-04-2026": ["15", "16"],
-  "09-04-2026": ["18", "31"],
-  "10-04-2026": ["33"],
-  "11-04-2026": ["34"], // == simplify the solution in next try by using the binary function
-  "12-04-2026": ["56", "75"],
-  "13-04-2026": ["128"],
-  "14-04-2026": ["153", "189", "238"],
-  "22-04-2026": ["442"],
-  "23-04-2026": ["4"],
-  "24-04-2026": ["41"],
-  "25-04-2026": ["42"],
-  "26-04-2026": ["239"],
 };
 
 const todo = {
@@ -89,7 +71,6 @@ const todo = {
   },
   linked_list: {
     easy: [
-      "206_reverse_linked_list",
       "21_merge_two_sorted_lists",
       "141_linked_list_cycle",
       "83_remove_duplicates_from_sorted_list",
