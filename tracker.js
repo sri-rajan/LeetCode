@@ -62,6 +62,8 @@ const dateWise = {
   ],
   "03-05-2026": [
     "83", //remove_duplicates_from_sorted_list,
+    "234", //palindrome_linked_list
+    "203", //remove_linked_list_elements
   ],
 };
 
@@ -73,7 +75,7 @@ const todo = {
     hard: ["84_largest_rectangle_in_histogram"],
   },
   linked_list: {
-    easy: ["234_palindrome_linked_list", "203_remove_linked_list_elements"],
+    easy: [],
     medium: [
       "2_add_two_numbers",
       "19_remove_nth_node_from_end",
