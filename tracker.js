@@ -57,8 +57,11 @@ const dateWise = {
   "01-05-2026": [
     "206", //reverse_linked_list
   ],
-  "03-05-2026": [
+  "02-05-2026": [
     "21", //merge_two_sorted_lists
+  ],
+  "03-05-2026": [
+    "83", //remove_duplicates_from_sorted_list,
   ],
 };
 
@@ -70,11 +73,7 @@ const todo = {
     hard: ["84_largest_rectangle_in_histogram"],
   },
   linked_list: {
-    easy: [
-      "83_remove_duplicates_from_sorted_list",
-      "234_palindrome_linked_list",
-      "203_remove_linked_list_elements",
-    ],
+    easy: ["234_palindrome_linked_list", "203_remove_linked_list_elements"],
     medium: [
       "2_add_two_numbers",
       "19_remove_nth_node_from_end",
