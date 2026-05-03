@@ -5,7 +5,7 @@
 # There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail's next pointer is connected to. Note that pos is not passed as a parameter.
 
 # Return true if there is a cycle in the linked list. Otherwise, return false.
- 
+
 
 # Example 1:
 
@@ -23,7 +23,7 @@
 # Input: head = [1], pos = -1
 # Output: false
 # Explanation: There is no cycle in the linked list.
- 
+
 
 # Constraints:
 
@@ -31,24 +31,42 @@
 # -105 <= Node.val <= 105
 # pos is -1 or a valid index in the linked-list.
 
+
 def hasCycle(head):
     slowpointer = head
     fastpointer = head
     while fastpointer and fastpointer.next:
         slowpointer = slowpointer.next
         fastpointer = fastpointer.next.next
-        if slowpointer == fastpointer :
+        if slowpointer == fastpointer:
             return True
 
     return False
 
 
+def hasCycleRevise(head):
+    slow = head
+    fast = head
+    count = 0
+    while fast and fast.next:
+        count += 1
+        if count > 200:
+            print("this is breaked")
+            break
+        slow = slow.next
+        fast = fast.next.next
+        if slow == fast:
+            return True
+    return False
+
+
 class Node:
-    def __init__(self,data):
+    def __init__(self, data):
         self.data = data
         self.next = None
 
-node1 = Node(1) # this is the head
+
+node1 = Node(1)  # this is the head
 node2 = Node(2)
 node3 = Node(3)
 node4 = Node(4)
@@ -57,7 +75,8 @@ node1.next = node2
 node2.next = node3
 node3.next = node4
 node4.next = node5
-node5.next = node2  #comment this line if you don't want circular
+node5.next = node2  # comment this line if you don't want circular
 
 answer = hasCycle(node1)
-print("does LinkedList has circle",answer)
+answer2 = hasCycleRevise(node1)
+print("does LinkedList has circle", answer, answer2)

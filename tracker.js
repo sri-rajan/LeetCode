@@ -71,8 +71,6 @@ const todo = {
   },
   linked_list: {
     easy: [
-      "21_merge_two_sorted_lists",
-      "141_linked_list_cycle",
       "83_remove_duplicates_from_sorted_list",
       "234_palindrome_linked_list",
       "203_remove_linked_list_elements",
