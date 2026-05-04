@@ -65,6 +65,9 @@ const dateWise = {
     "234", //palindrome_linked_list
     "203", //remove_linked_list_elements
   ],
+  "04-05-2026": [
+    "2", //add_two_numbers
+  ],
 };
 
 const todo = {
@@ -77,7 +80,6 @@ const todo = {
   linked_list: {
     easy: [],
     medium: [
-      "2_add_two_numbers",
       "19_remove_nth_node_from_end",
       "24_swap_nodes_in_pairs",
       "61_rotate_list",
