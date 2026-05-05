@@ -67,6 +67,8 @@ const dateWise = {
   ],
   "04-05-2026": [
     "2", //add_two_numbers
+    "19", //remove_nth_node_from_end
+    "24", //swap_nodes_in_pairs
   ],
 };
 
@@ -80,8 +82,6 @@ const todo = {
   linked_list: {
     easy: [],
     medium: [
-      "19_remove_nth_node_from_end",
-      "24_swap_nodes_in_pairs",
       "61_rotate_list",
       "82_remove_duplicates_from_sorted_list_II",
       "86_partition_list",
