@@ -75,6 +75,7 @@ const dateWise = {
   ],
   "06-05-2026": [
     "61", //rotate_list
+    "82", //remove_duplicates_from_sorted_list_II
   ],
 };
 
@@ -88,7 +89,6 @@ const todo = {
   linked_list: {
     easy: [],
     medium: [
-      "82_remove_duplicates_from_sorted_list_II",
       "86_partition_list",
       "142_linked_list_cycle_II", //fast and slow pointer
       "876_middle_of_linked_list", // fast and slow pointer
