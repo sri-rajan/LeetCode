@@ -14,7 +14,6 @@ def createListNodeFromArray(list):
 
 
 def displayListNode(head):
-    print("this is displaying")
     temp = head
     while temp:
         print(temp.val, end="-->")

@@ -70,6 +70,12 @@ const dateWise = {
     "19", //remove_nth_node_from_end
     "24", //swap_nodes_in_pairs
   ],
+  "05-05-2026": [
+    "24", //swap_nodes_in_pairs
+  ],
+  "06-05-2026": [
+    "61", //rotate_list
+  ],
 };
 
 const todo = {
@@ -82,7 +88,6 @@ const todo = {
   linked_list: {
     easy: [],
     medium: [
-      "61_rotate_list",
       "82_remove_duplicates_from_sorted_list_II",
       "86_partition_list",
       "142_linked_list_cycle_II", //fast and slow pointer
