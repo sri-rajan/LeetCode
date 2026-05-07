@@ -80,6 +80,7 @@ const dateWise = {
   ],
   "07-05-2026": [
     "142", //linked_list_cycle_II
+    "876", //middle_of_linked_list
   ],
 };
 
@@ -93,7 +94,6 @@ const todo = {
   linked_list: {
     easy: [],
     medium: [
-      "876_middle_of_linked_list", // fast and slow pointer
       "92_reverse_linked_list_II", // reversal variations
       "143_reorder_list", // reversal variations
       "328_odd_even_linked_list", // structure / ordering
