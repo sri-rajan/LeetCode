@@ -92,9 +92,6 @@ const todo = {
   array: {
     hard: ["85 – Maximal Rectangle"],
   },
-  stack_queue: {
-    hard: ["84_largest_rectangle_in_histogram"],
-  },
   linked_list: {
     easy: [],
     medium: [
@@ -105,6 +102,32 @@ const todo = {
       "23_merge_k_sorted_lists",
       "25_reverse_nodes_in_k_group",
       "138_copy_list_with_random_pointer",
+    ],
+  },
+  stack_queue: {
+    easy: [
+      "20_valid_parentheses",
+      "225_implement_stack_using_queues",
+      "155_min_stack",
+      "682_baseball_game",
+      "1021_remove_outermost_parentheses",
+    ],
+    medium: [
+      "739_daily_temperatures",
+      "496_next_greater_element_I",
+      "503_next_greater_element_II",
+      "150_evaluate_reverse_polish_notation",
+      "394_decode_string",
+      "735_asteroid_collision",
+      "402_remove_k_digits",
+      "853_car_fleet",
+    ],
+    hard: [
+      "84_largest_rectangle_in_histogram",
+      "42_trapping_rain_water",
+      "224_basic_calculator",
+      "239_sliding_window_maximum",
+      "85_maximal_rectangle",
     ],
   },
 };
