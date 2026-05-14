@@ -88,6 +88,7 @@ const dateWise = {
   ],
   "14-05-2026": [
     "328", //odd_even_linked_list"
+    "147", //insertion_sort_list
   ],
 };
 
@@ -97,9 +98,7 @@ const todo = {
   },
   linked_list: {
     easy: [],
-    medium: [
-      "147_insertion_sort_list", // structure / ordering
-    ],
+    medium: [],
     hard: [
       "23_merge_k_sorted_lists",
       "25_reverse_nodes_in_k_group",
