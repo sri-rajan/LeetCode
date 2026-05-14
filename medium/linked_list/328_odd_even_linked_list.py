@@ -49,7 +49,21 @@ def oddEvenList(head):
     return odd.next
 
 
+def oddEvenListOpti(head):
+    if not head or not head.next:
+        return head
+    odd, even = head, head.next
+    evenHead = even
+    while even and even.next:
+        odd.next = even.next
+        odd = odd.next
+        even.next = even.next.next
+        even = even.next
+    odd.next = evenHead
+    return head
+
+
 LinkedList = createListNodeFromArray([1, 2, 3, 4, 5])
-answer = oddEvenList(LinkedList)
+answer = oddEvenListOpti(LinkedList)
 print("this is answer")
 displayListNode(answer)
