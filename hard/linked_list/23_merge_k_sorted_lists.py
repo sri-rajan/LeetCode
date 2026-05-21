@@ -65,7 +65,6 @@ def mergeKListsOpti(lists):
         return None
 
     while len(lists) > 1:
-        print("rec on3", len(lists))
         temp = []
         for i in range(0, len(lists), 2):
             l1 = lists[i]
