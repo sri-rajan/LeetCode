@@ -96,6 +96,9 @@ const dateWise = {
   "21-05-2026": [
     "25", //reverse_nodes_in_k_group
   ],
+  "23-05-2026": [
+    "138", //copy_list_with_random_pointer
+  ],
 };
 
 const todo = {
@@ -105,7 +108,7 @@ const todo = {
   linked_list: {
     easy: [],
     medium: [],
-    hard: ["138_copy_list_with_random_pointer"],
+    hard: [],
   },
   stack_queue: {
     easy: [
