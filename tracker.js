@@ -99,6 +99,9 @@ const dateWise = {
   "23-05-2026": [
     "138", //copy_list_with_random_pointer
   ],
+  "25-05-2026": [
+    "20", //valid_parentheses
+  ],
 };
 
 const todo = {
@@ -112,7 +115,6 @@ const todo = {
   },
   stack_queue: {
     easy: [
-      "20_valid_parentheses",
       "225_implement_stack_using_queues",
       "155_min_stack",
       "682_baseball_game",
