@@ -102,6 +102,9 @@ const dateWise = {
   "25-05-2026": [
     "20", //valid_parentheses
   ],
+  "23-06-2026": [
+    "225", //implement_stack_using_queues
+  ],
 };
 
 const todo = {
@@ -115,7 +118,6 @@ const todo = {
   },
   stack_queue: {
     easy: [
-      "225_implement_stack_using_queues",
       "155_min_stack",
       "682_baseball_game",
       "1021_remove_outermost_parentheses",
