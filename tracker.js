@@ -105,6 +105,9 @@ const dateWise = {
   "23-06-2026": [
     "225", //implement_stack_using_queues
   ],
+  "24-06-2026": [
+    "155", //min_stack",
+  ],
 };
 
 const todo = {
@@ -117,11 +120,7 @@ const todo = {
     hard: [],
   },
   stack_queue: {
-    easy: [
-      "155_min_stack",
-      "682_baseball_game",
-      "1021_remove_outermost_parentheses",
-    ],
+    easy: ["682_baseball_game", "1021_remove_outermost_parentheses"],
     medium: [
       "739_daily_temperatures",
       "496_next_greater_element_I",

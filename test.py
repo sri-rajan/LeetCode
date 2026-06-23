@@ -1,1 +1,2 @@
-print(10 // 4)
+lss = []
+print("this is li>>", lss[-1])
