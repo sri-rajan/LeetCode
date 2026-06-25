@@ -114,6 +114,7 @@ const dateWise = {
   ],
   "26-06-2026": [
     "739", //daily_temperatures
+    "496", //next_greater_element_I
   ],
 };
 
@@ -129,7 +130,6 @@ const todo = {
   stack_queue: {
     easy: [],
     medium: [
-      "496_next_greater_element_I",
       "503_next_greater_element_II",
       "150_evaluate_reverse_polish_notation",
       "394_decode_string",
