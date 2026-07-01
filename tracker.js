@@ -119,6 +119,9 @@ const dateWise = {
   "28-06-2026": [
     "503", //next_greater_element_II
   ],
+  "01-07-2026": [
+    "150", //evaluate_reverse_polish_notation
+  ],
 };
 
 const todo = {
@@ -133,7 +136,6 @@ const todo = {
   stack_queue: {
     easy: [],
     medium: [
-      "150_evaluate_reverse_polish_notation",
       "394_decode_string",
       "735_asteroid_collision",
       "402_remove_k_digits",
