@@ -122,6 +122,9 @@ const dateWise = {
   "01-07-2026": [
     "150", //evaluate_reverse_polish_notation
   ],
+  "07-07-2026": [
+    "394", //decode_string"
+  ],
 };
 
 const todo = {
@@ -135,12 +138,7 @@ const todo = {
   },
   stack_queue: {
     easy: [],
-    medium: [
-      "394_decode_string",
-      "735_asteroid_collision",
-      "402_remove_k_digits",
-      "853_car_fleet",
-    ],
+    medium: ["735_asteroid_collision", "402_remove_k_digits", "853_car_fleet"],
     hard: [
       "84_largest_rectangle_in_histogram",
       "42_trapping_rain_water",
