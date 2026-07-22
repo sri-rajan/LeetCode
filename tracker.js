@@ -128,6 +128,9 @@ const dateWise = {
   "09-07-2026": [
     "735", //asteroid_collision
   ],
+  "23-07-2026": [
+    "402", //remove_k_digits
+  ],
 };
 
 const todo = {
@@ -141,7 +144,7 @@ const todo = {
   },
   stack_queue: {
     easy: [],
-    medium: ["402_remove_k_digits", "853_car_fleet"],
+    medium: ["853_car_fleet"],
     hard: [
       "84_largest_rectangle_in_histogram",
       "42_trapping_rain_water",
