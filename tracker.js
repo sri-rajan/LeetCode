@@ -131,6 +131,9 @@ const dateWise = {
   "23-07-2026": [
     "402", //remove_k_digits
   ],
+  "24-07-2026": [
+    "853", //car_fleet
+  ],
 };
 
 const todo = {
@@ -144,7 +147,7 @@ const todo = {
   },
   stack_queue: {
     easy: [],
-    medium: ["853_car_fleet"],
+    medium: [],
     hard: [
       "84_largest_rectangle_in_histogram",
       "42_trapping_rain_water",
