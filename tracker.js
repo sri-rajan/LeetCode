@@ -132,7 +132,10 @@ const dateWise = {
     "402", //remove_k_digits
   ],
   "24-07-2026": [
-    "853", //car_fleet
+    "853", //remove_k_digits
+  ],
+  "28-07-2026": [
+    "84", //largest_rectangle_in_histogram
   ],
 };
 
@@ -149,7 +152,6 @@ const todo = {
     easy: [],
     medium: [],
     hard: [
-      "84_largest_rectangle_in_histogram",
       "42_trapping_rain_water",
       "224_basic_calculator",
       "239_sliding_window_maximum",
